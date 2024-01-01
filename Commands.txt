@@ -1,0 +1,13 @@
+1. Command: initialize git repository : git init
+2. Command: clone remote repository : git clone <url>
+3. Command: stage all changes : git add .
+4. Command: view state of working directory and staging area : git status
+5. Command: create new branch : git branch <branch name>
+6. Command: change branch : git checkout <branch name>
+7. Command: clean staging area : git reset
+8. Command: get commits and changes from remote branch (It should not merge changes in current branch) : git fetch <remote-repo> <branch>
+9. Command: get commits and changes from remote branch (It should merge changes in current branch) : git pull <remote-repo> <branch>
+10. Command: cherry pick commit which SHA => 092018283103810930 : git cherry-pick 092018283103810930
+11. Command: push branch : git push <remote-repo> <branch>
+12. Command: delete remote branch : git push <remote-repo>
+13. Command: do iterative rebase : git rebase -i <base-commit>
